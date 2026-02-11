@@ -1,0 +1,115 @@
+﻿
+> junior-portfolio@0.0.0 build
+> vite build
+
+[36mvite v5.4.21 [32mbuilding for production...[36m[39m
+transforming...
+[32mÔ£ô[39m 17 modules transformed.
+node.exe : [31mx[39m Build 
+failed in 1.17s
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo          : 
+    NotSpecified: ([31mx[3  
+  9m Build failed in 1.17s:   
+ String) [], RemoteExcepti    
+on
+    + FullyQualifiedErrorId : 
+    NativeCommandError
+ 
+[31merror during build:
+[31m[vite:esbuild] Transform 
+failed with 3 errors:
+C:/Users/user/OneDrive/Documen
+ts/portfolio/src/components/Sk
+ills.jsx:209:14: ERROR: 
+Unexpected closing 
+"motion.div" tag does not 
+match opening "div" tag
+C:/Users/user/OneDrive/Documen
+ts/portfolio/src/components/Sk
+ills.jsx:210:10: ERROR: 
+Unexpected closing "section" 
+tag does not match opening 
+"motion.div" tag
+C:/Users/user/OneDrive/Documen
+ts/portfolio/src/components/Sk
+ills.jsx:215:0: ERROR: 
+Unexpected end of file before 
+a closing "section" tag[31m
+file: [36mC:/Users/user/OneDr
+ive/Documents/portfolio/src/co
+mponents/Skills.jsx:209:14[31
+m
+[33m
+[33mUnexpected closing 
+"motion.div" tag does not 
+match opening "div" tag[33m
+207|  
+208|                      
+</div>
+209|              
+</motion.div>
+   |                ^
+210|          </section>
+211|      );
+
+[33mUnexpected closing 
+"section" tag does not match 
+opening "motion.div" tag[33m
+208|                      
+</div>
+209|              
+</motion.div>
+210|          </section>
+   |            ^
+211|      );
+212|  };
+
+[33mUnexpected end of file 
+before a closing "section" 
+tag[33m
+213|  
+214|  export default Skills;
+215|  
+   |  ^
+[31m
+    at failureErrorWithLog (C:
+\Users\user\OneDrive\Documents
+\portfolio\node_modules\esbuil
+d\lib\main.js:1472:15)
+    at C:\Users\user\OneDrive\
+Documents\portfolio\node_modul
+es\esbuild\lib\main.js:755:50
+    at 
+responseCallbacks.<computed> (
+C:\Users\user\OneDrive\Documen
+ts\portfolio\node_modules\esbu
+ild\lib\main.js:622:9)
+    at handleIncomingPacket (C
+:\Users\user\OneDrive\Document
+s\portfolio\node_modules\esbui
+ld\lib\main.js:677:12)
+    at Socket.readFromStdout (
+C:\Users\user\OneDrive\Documen
+ts\portfolio\node_modules\esbu
+ild\lib\main.js:600:7)
+    at Socket.emit 
+(node:events:507:28)
+    at addChunk (node:internal
+/streams/readable:559:12)
+    at 
+readableAddChunkPushByteMode (
+node:internal/streams/readable
+:510:3)
+    at Readable.push (node:int
+ernal/streams/readable:390:5)
+    at Pipe.onStreamRead (node
+:internal/stream_base_commons:
+189:23)[39m
